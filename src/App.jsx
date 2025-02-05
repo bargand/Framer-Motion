@@ -8,7 +8,7 @@ const App = () => {
         className="box"
         animate={{ 
           x:[0,500,500,0,0],
-          y:[0,0,200,200,0]
+          y:[0,0,200,201,0]
         }}
         transition={{ duration: 4, repeat: Infinity, ease: "anticipate" }}
       ></motion.div>
